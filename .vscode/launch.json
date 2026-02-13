@@ -7,7 +7,7 @@
         "request": "attach",
         "websocketAddress": "ws://localhost:13595",
         "sourceMapPathOverrides": {
-            "/valditest1/*": "${workspaceRoot}/modules/valditest1/*"
+            "/valditest1/*": "${workspaceRoot}/valdi_modules/valditest1/*"
         },
         "sourceMaps": true,
         "restart": false,

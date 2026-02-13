@@ -1,11 +1,14 @@
 {
     "extends": "../../bazel-valditest1/external/valdi/modules/_configs/base.tsconfig.json",
     "compilerOptions": {
-        "lib": ["dom", "ES2019"],
+        "lib": [
+            "dom",
+            "ES2019"
+        ],
         "paths": {
             "valditest1/*": [
                 "./*",
-                "../../bazel-out/darwin_arm64-fastbuild/bin/modules/valditest1/.valdi_build/projectsync/generated_ts/valditest1/*"
+                "../../bazel-out/darwin_arm64-fastbuild/bin/valdi_modules/valditest1/.valdi_build/projectsync/generated_ts/valditest1/*"
             ],
             "jasmine/*": [
                 "../../bazel-valditest1/external/valdi/src/valdi_modules/src/valdi/jasmine/*"
@@ -32,7 +35,7 @@
         ],
         "rootDirs": [
             "..",
-            "../../bazel-out/darwin_arm64-fastbuild/bin/modules/valditest1/.valdi_build/projectsync/generated_ts"
+            "../../bazel-out/darwin_arm64-fastbuild/bin/valdi_modules/valditest1/.valdi_build/projectsync/generated_ts"
         ]
     }
 }

@@ -8,12 +8,12 @@ valdi_application(
     root_component_path = "App@valditest1/src/App",
     title = "valditest1",
     version = "1.0.0",
-    deps = ["//modules/valditest1"],
+    deps = ["//valdi_modules/valditest1"],
 )
 
 valdi_exported_library(
     name = "valditest1_export",
     ios_bundle_id = "com.website.valditest1.lib",
     ios_bundle_name = "Valditest1",
-    deps = ["//modules/valditest1"],
+    deps = ["//valdi_modules/valditest1"],
 )
