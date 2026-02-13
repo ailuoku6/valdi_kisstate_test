@@ -20,13 +20,10 @@ Add this repo as a Valdi module dependency.
 
 ```bzl
 # WORKSPACE
-load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
-
 http_archive(
     name = "kisstate_valdi",
-    # Replace with your repo URL and tag/commit
-    url = "https://github.com/<org>/kisstate-valdi/archive/refs/heads/main.zip",
-    strip_prefix = "kisstate-valdi-main",
+    strip_prefix = "kisstate_valdi-<TAG>", # e.g. kisstate_valdi-beta-0.0.1
+    url = "https://github.com/ailuoku6/kisstate_valdi/archive/refs/tags/<TAG>.tar.gz",
 )
 ```
 
