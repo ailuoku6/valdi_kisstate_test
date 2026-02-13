@@ -1,5 +1,5 @@
 # kisstate-valdi (Valdi module)
-This repo provides a reusable Valdi module at `valdi_modules/kisstate_valdi` so other projects can depend on it.
+This repo provides a reusable Valdi module at `valdi_modules/kisstate-valdi` so other projects can depend on it.
 
 ## Use in Another Valdi Project
 
@@ -34,12 +34,12 @@ valdi_module(
     name = "your_module",
     # ...
     deps = [
-        "@kisstate_valdi//valdi_modules/kisstate_valdi:kisstate_valdi",
+        "@kisstate_valdi//valdi_modules/kisstate-valdi:kisstate-valdi",
     ],
 )
 ```
 
-Public APIs are exported from `valdi_modules/kisstate_valdi/src/index.ts`.
+Public APIs are exported from `valdi_modules/kisstate-valdi/src/index.ts`.
 
 ## Local Development (Optional)
 

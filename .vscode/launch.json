@@ -7,7 +7,7 @@
         "request": "attach",
         "websocketAddress": "ws://localhost:13595",
         "sourceMapPathOverrides": {
-            "/kisstate_valdi/*": "${workspaceRoot}/valdi_modules/kisstate_valdi/*"
+            "/kisstate-valdi/*": "${workspaceRoot}/valdi_modules/kisstate-valdi/*"
         },
         "sourceMaps": true,
         "restart": false,

@@ -62,10 +62,10 @@ valdi hotreload
 valdi projectsync
 
 # Build specific targets with Bazel
-bazel build //valdi_modules/kisstate_valdi:kisstate_valdi
+bazel build //valdi_modules/kisstate-valdi:kisstate-valdi
 
 # Run tests
-bazel test //valdi_modules/kisstate_valdi:tests
+bazel test //valdi_modules/kisstate-valdi:tests
 ```
 
 ## Valdi Component Basics

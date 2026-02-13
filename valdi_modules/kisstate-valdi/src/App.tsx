@@ -9,12 +9,8 @@ import { getDaemonClientManager } from 'valdi_core/src/debugging/DaemonClientMan
 import { IDaemonClientManagerListener } from 'valdi_core/src/debugging/DaemonClientManager';
 import res from '../res';
 
-import { watchProps, computed, createValdiObserver, ObservableClass } from './kiss-valdi/index';
+import { watchProps, computed, observer, ObservableClass } from './kiss-valdi/index';
 
-export const observer = createValdiObserver({
-  Component: Component,
-  StatefulComponent: StatefulComponent,
-});
 
 @ObservableClass
 class AppStoreTest {
@@ -86,6 +82,7 @@ export class App1 extends StatefulComponent<AppViewModel, AppComponentContext> i
       <image style={styles.logo} src={res.valdi} onTap={() => AppStoreTest1.age++} />
       <layout padding={20}>
         <label style={styles.title} value={`Welcome to Valdi! ${AppStoreTest1.age}`} />
+        <label style={styles.title} value={`Welcome to Valdi! ${AppStoreTest1.age2}`} />
         <label style={styles.title} value={`${map.get("test")}`} />
       </layout>
       <label style={styles.subtitle} value={this.renderLabel()} />

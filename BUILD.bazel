@@ -5,15 +5,15 @@ valdi_application(
     name = "kisstate_valdi_app",
     ios_bundle_id = "com.website.kisstate.valdi",
     ios_families = ["iphone"],
-    root_component_path = "App@kisstate_valdi/src/App",
-    title = "kisstate-valdi",
+    root_component_path = "App@kisstate-valdi/src/App",
+    title = "kisstate_valdi",
     version = "1.0.0",
-    deps = ["//valdi_modules/kisstate_valdi"],
+    deps = ["//valdi_modules/kisstate-valdi"],
 )
 
 valdi_exported_library(
     name = "kisstate_valdi_export",
     ios_bundle_id = "com.website.kisstate.valdi.lib",
     ios_bundle_name = "KisstateValdi",
-    deps = ["//valdi_modules/kisstate_valdi"],
+    deps = ["//valdi_modules/kisstate-valdi"],
 )

@@ -6,9 +6,9 @@
             "ES2019"
         ],
         "paths": {
-            "kisstate_valdi/*": [
+            "kisstate-valdi/*": [
                 "./*",
-                "../../bazel-out/darwin_arm64-fastbuild/bin/valdi_modules/kisstate_valdi/.valdi_build/projectsync/generated_ts/kisstate_valdi/*"
+                "../../bazel-out/darwin_arm64-fastbuild/bin/valdi_modules/kisstate-valdi/.valdi_build/projectsync/generated_ts/kisstate-valdi/*"
             ],
             "jasmine/*": [
                 "../../bazel-kisstate_valdi/external/valdi/src/valdi_modules/src/valdi/jasmine/*"
@@ -35,7 +35,7 @@
         ],
         "rootDirs": [
             "..",
-            "../../bazel-out/darwin_arm64-fastbuild/bin/valdi_modules/kisstate_valdi/.valdi_build/projectsync/generated_ts"
+            "../../bazel-out/darwin_arm64-fastbuild/bin/valdi_modules/kisstate-valdi/.valdi_build/projectsync/generated_ts"
         ]
     }
 }
